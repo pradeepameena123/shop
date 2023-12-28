@@ -16,7 +16,7 @@ public class ShopDao {
 	
 	public String getName(Shop a) {
 		sh.save(a);
-		return "save";
+		return "save data";
 	}
 
 	public String getNames(List<Shop> a) {
